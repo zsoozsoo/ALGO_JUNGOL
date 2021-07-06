@@ -28,7 +28,7 @@ public class Q2577 {
 		for (int i = k; i < N+k; i++) {
 			if(--sushi[dish[i-k]]==0) cnt--;
 			if(sushi[dish[i%N]]++==0) cnt++;
-			if(cnt > res) res = cnt;
+			if(cnt >res) res = cnt;
 			
 		}
 		
